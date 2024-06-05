@@ -3,13 +3,13 @@ package hoge;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
-import java.util.Random;
+
 
 public class Hello {
 
     public static HashMap<String, ArrayList<String>> ranking;
     public static HashMap<String, String> matching;
-    private static Random rand;
+
 
     public static void main(String[] args){
         matching = new HashMap<String, String>();
